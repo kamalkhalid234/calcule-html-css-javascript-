@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kamal Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1 class="titre"> kamal--khali</h1>
+        <div id="calculator">
+            <form name="form1">
+                <div id="header">
+                    <input type="text" name="text1" id="number" value="" size=36>
+                </div>
+                <div id="body">
+                    <table>
+                        <tr>
+                            <td><input type="button" class="buttons" value="7" onclick="calc('7')">
+                            <td><input type="button" class="buttons" value="8" onclick="calc('8')">
+                            <td><input type="button" class="buttons" value="9" onclick="calc('9')">
+                        <tr>
+                            <td><input type="button" class="buttons" value="4" onclick="calc('4')">
+                            <td><input type="button" class="buttons" value="5" onclick="calc('5')">
+                            <td><input type="button" class="buttons" value="6" onclick="calc('6')">
+                        <tr>
+                            <td><input type="button" value="1" class="buttons" onclick="calc('1')">
+                            <td><input type="button" value="2" class="buttons" onclick="calc('2')">
+                            <td><input type="button" value="3" class="buttons" onclick="calc('3')">
+                    </table>
+                    <div>
+                        <input type="button" class="buttons b1" value="C" onclick="calc('C')">
+                    </div>
+            </form>
+        </div>
+    </div>
+    <script src="kamal.js"></script>
+</body>
+
+</html>
